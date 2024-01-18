@@ -1,0 +1,144 @@
+body{
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #162028;
+    color: #425564;
+    font-family: 'ViaodaLibre-Regular';
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header__logo{
+    color: white;
+
+    font-size:36px;
+    letter-spacing: 4px;
+    text-transform:capitalize;
+
+    margin-left: 250px;
+}
+
+.nav__ul{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+
+    display: flex;
+    margin-right: 30px;
+    list-style-type: none;
+    gap:100px;
+}
+
+.div__img{
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+.div__img img{
+    width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+section{
+    font-family: 'Italiana-Regular';
+}
+
+.article__header{
+    font-size: 40px;
+    text-align: center;
+
+    margin: 10%;
+    margin-bottom: 3%;
+}
+
+.article{
+    font-size: 26px;
+    text-align: center;
+
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: auto;
+    padding: 40px;
+    gap:16px;
+}
+
+
+.content-section h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.content-section p{
+    text-align: center;
+}
+
+.end-page{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.end-page h1{
+    color: white;
+
+    text-transform: uppercase;
+    font-family: 'Italiana-Regular';
+    font-size: 80px;
+
+    margin-left: 5%;
+    padding-top: 15%;
+}
+.end-page p{
+    color: white;
+    
+    font-size: 20px;
+    text-align: left;
+
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+footer{
+    background-color:#162028;
+    color: #425564;
+
+    font-family: 'ViaodaLibre-Regular';
+    font-size: 16px;
+    letter-spacing: 4px;
+
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    margin: 0;
+}
